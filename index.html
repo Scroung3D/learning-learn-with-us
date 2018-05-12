@@ -8,11 +8,41 @@
   <link rel="stylesheet"
         href="style.css">
   <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Raleway"
         rel="stylesheet">
 </head>
 <body>
+
+<!-- Start Modal Box -->
+
+<input type="checkbox" id="registration" style="display: none">
+<form action="index.html" id="register">
+  <label for="registration" id="close">&times;</label>
+  <label for="username">Username:</label>
+  <input type="text" placeholder="Your Name">
+  <label for="email">E-mail:</label>
+  <input type="email" placeholder="Your E-mail Address">
+  <label for="login">Login Name:</label>
+  <input type="text" placeholder="Choose a Login Name">
+  <label for="password">Password:</label>
+  <input type="password" placeholder="Choose a Password">
+  <label for="password">Confirm Password:</label>
+  <input type="password" placeholder="Confirm Your Password">
+  <input type="submit" value="Register">
+</form>
+
+<input type="checkbox" id="login" style="display: none">
+<form action="index.html" id="sign-in">
+  <label for="login" id="close">&times;</label>
+  <label for="email">Email Address:</label>
+  <input type="email" placeholder="Your E-mail">
+  <label for="password">Password:</label>
+  <input type="password" placeholder="Your Password">
+  <input type="submit" value="login">
+</form>
+<!-- End Modal Box -->
+
 <!-- Start Main Wrapper -->
 <div class="main-wrapper">
   <!--Start Navigation-->
@@ -36,8 +66,8 @@
     </ul>
 
     <ul class="nav2">
-      <li><a href="#">Login</a></li>
-      <li><a href="#">Registration</a></li>
+      <li><a href="#"><label for="login">Login</label></a></li>
+      <li><a href="#"><label for="registration">Registration</label></a></li>
     </ul>
   </nav>
   <!--End Navigation-->
@@ -137,6 +167,17 @@
     </div>
   </section>
   <!-- End Developers Section -->
+
+
+  <!-- Start Social Media Section -->
+  <section class="social-icons">
+    <ul>
+      <li><a href="#"><i class="fab fa-google-plus-g"><span>Google+</span></i></a></li>
+      <li><a href="#"><i class="fab fa-facebook-f"><span>Facebook</span></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"><span>Twitter</span></i></a></li>
+    </ul>
+  </section>
+  <!-- End Social Media Section -->
 
   <footer>
     <p>
